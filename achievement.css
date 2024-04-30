@@ -1,0 +1,426 @@
+#container{
+    font-size: xx-large;
+    text-align: center;
+    vertical-align: middle;
+    height: 900px;
+    width: 1830px;
+    border-radius: 50px;
+}
+#navbar{
+    display: flex;
+    gap: 5%;
+    -webkit-text-fill-color: rgb(241, 233, 233);
+    width: 1820px;
+    height: 60px;
+    background-color:rgb(66, 92, 92);
+    font-size:xx-large;
+    text-decoration: none;
+    margin-bottom: 10px;
+    
+}
+#body{
+    display: block;
+}
+#achievements{
+    width: 1830px;
+    height: 90px;
+    background-color: rgb(60, 88, 88);
+    -webkit-text-fill-color: rgb(8, 8, 8);
+    margin-top: -8px;
+}
+#landing-page{
+    display: flex;
+    gap: 4%;
+    width: 1400px;
+    margin-left: 200px;
+    background-color: rgb(61, 80, 80);
+    border-radius: 50px;
+}
+#achievement{
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+    margin-left: 90px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+#achieved{
+    border-radius: 50px;
+    text-align: center;
+    -webkit-text-fill-color: aliceblue;
+    display: flex;
+    gap: 3%;
+}
+#typing-faster{
+    background-color: rgb(37, 66, 66);
+    border-radius: 50px;
+}
+#basics{
+    background-color: rgb(37, 66, 66);
+    border-radius: 50px;
+}
+#laptop{
+    background-color: rgb(37, 66, 66);
+    border-radius: 50px;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+#myInput{
+    width: 500px;
+    font-size: x-large;
+    height: 60px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+@media screen and (min-width:280px) and (max-width: 480px){
+    #container{
+        font-size:large;
+        text-align: center;
+        vertical-align: middle;
+        height: 100%;
+        width: 100%;
+        border-radius: 0px;
+    }
+    #navbar{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2%;
+        -webkit-text-fill-color: rgb(241, 233, 233);
+        width: 98%;
+        height: 60px;
+        background-color:rgb(66, 92, 92);
+        font-size:large;
+        text-decoration: none;
+        margin-bottom: 10px;
+        
+    }
+    #body{
+        display: block;
+    }
+    #achievements{
+        width: 100%;
+        height: 90px;
+        background-color: rgb(60, 88, 88);
+        -webkit-text-fill-color: rgb(8, 8, 8);
+        margin-top: -8px;
+    }
+    #landing-page{
+        display: block;
+        gap: 4%;
+        width: 350px;
+        margin-left: 0px;
+        background-color: rgb(61, 80, 80);
+        border-radius: 50px;
+    }
+    #achievement{
+        width: 200px;
+        height: 250px;
+        object-fit: cover;
+        margin-left: 0px;
+        border-radius: 50px;
+        margin-top: 350px;
+    }
+    #achieved{
+        border-radius: 50px;
+        text-align: center;
+        -webkit-text-fill-color: aliceblue;
+        display: flex;
+        gap: 3%;
+    }
+    
+    #logo{
+        width: 50px;
+        height: 50px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    #myInput{
+        width: 200px;
+        font-size: x-large;
+        height: 40px;
+        margin-top: 30px;
+        border-radius: 20px;
+    }
+}
+@media screen and (min-width:481px) and (max-width: 680px){
+    #container{
+        font-size:large;
+        text-align: center;
+        vertical-align: middle;
+        height: 100%;
+        width: 100%;
+        border-radius: 0px;
+    }
+    #navbar{
+        display: flex;
+        gap: 2%;
+        -webkit-text-fill-color: rgb(241, 233, 233);
+        width: 100%;
+        height: 60px;
+        background-color:rgb(66, 92, 92);
+        font-size:large;
+        text-decoration: none;
+        margin-bottom: 10px;
+        
+    }
+    #body{
+        display: block;
+    }
+    #achievements{
+        width: 100%;
+        height: 90px;
+        background-color: rgb(60, 88, 88);
+        -webkit-text-fill-color: rgb(8, 8, 8);
+        margin-top: -8px;
+    }
+    #landing-page{
+        display: block;
+        gap: 4%;
+        width: 350px;
+        margin-left: 0px;
+        background-color: rgb(61, 80, 80);
+        border-radius: 50px;
+    }
+    #achievement{
+        width: 200px;
+        height: 250px;
+        object-fit: cover;
+        margin-left: 0px;
+        border-radius: 50px;
+        margin-top: 30px;
+    }
+    #achieved{
+        border-radius: 50px;
+        text-align: center;
+        -webkit-text-fill-color: aliceblue;
+        display: flex;
+        gap: 3%;
+    }
+    
+    #logo{
+        width: 50px;
+        height: 50px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    #myInput{
+        width: 200px;
+        font-size: large;
+        height: 40px;
+        margin-top: 30px;
+        border-radius: 20px;
+    }
+}
+@media screen and (min-width:681px) and (max-width: 880px){
+    #container{
+        font-size:x-large;
+        text-align: center;
+        vertical-align: middle;
+        height: 100%;
+        width: 100%;
+        border-radius: 0px;
+    }
+    #navbar{
+        display: flex;
+        gap: 2%;
+        -webkit-text-fill-color: rgb(241, 233, 233);
+        width: 100%;
+        height: 60px;
+        background-color:rgb(66, 92, 92);
+        font-size:large;
+        text-decoration: none;
+        margin-bottom: 10px;
+        
+    }
+    #body{
+        display: block;
+    }
+    #achievements{
+        width: 100%;
+        height: 90px;
+        background-color: rgb(60, 88, 88);
+        -webkit-text-fill-color: rgb(8, 8, 8);
+        margin-top: -8px;
+    }
+    #landing-page{
+        display: block;
+        gap: 4%;
+        width: 750px;
+        height: 700px;
+        margin-left: 0px;
+        background-color: rgb(61, 80, 80);
+        border-radius: 50px;
+    }
+    #achievement{
+        width: 200px;
+        height: 250px;
+        object-fit: cover;
+        margin-left: 0px;
+        border-radius: 50px;
+        margin-top: 30px;
+    }
+    #achieved{
+        border-radius: 50px;
+        text-align: center;
+        -webkit-text-fill-color: aliceblue;
+        display: flex;
+        gap: 3%;
+    }
+    
+    #logo{
+        width: 50px;
+        height: 50px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    #myInput{
+        width: 200px;
+        font-size: large;
+        height: 40px;
+        margin-top: 30px;
+        border-radius: 20px;
+    }
+}
+@media screen and (min-width:881px) and (max-width: 1024px){
+    #container{
+        font-size:large;
+        text-align: center;
+        vertical-align: middle;
+        height: 100%;
+        width: 100%;
+        border-radius: 0px;
+    }
+    #navbar{
+        display: flex;
+        gap: 2%;
+        -webkit-text-fill-color: rgb(241, 233, 233);
+        width: 100%;
+        height: 60px;
+        background-color:rgb(66, 92, 92);
+        font-size:large;
+        text-decoration: none;
+        margin-bottom: 10px;
+        
+    }
+    #body{
+        display: block;
+    }
+    #achievements{
+        width: 100%;
+        height: 90px;
+        background-color: rgb(60, 88, 88);
+        -webkit-text-fill-color: rgb(8, 8, 8);
+        margin-top: -8px;
+    }
+    #landing-page{
+        display: block;
+        gap: 4%;
+        width: 650px;
+        margin-left: 0px;
+        background-color: rgb(61, 80, 80);
+        border-radius: 50px;
+    }
+    #achievement{
+        width: 200px;
+        height: 250px;
+        object-fit: cover;
+        margin-left: 0px;
+        border-radius: 50px;
+        margin-top: 30px;
+    }
+    #achieved{
+        border-radius: 50px;
+        text-align: center;
+        -webkit-text-fill-color: aliceblue;
+        display: flex;
+        gap: 3%;
+    }
+    
+    #logo{
+        width: 50px;
+        height: 50px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    #myInput{
+        width: 200px;
+        font-size: large;
+        height: 40px;
+        margin-top: 30px;
+        border-radius: 20px;
+    }
+}
+@media screen and (min-width:1025px) and (max-width: 1500px){
+    #container{
+        font-size:large;
+        text-align: center;
+        vertical-align: middle;
+        height: 100%;
+        width: 100%;
+        border-radius: 0px;
+    }
+    #navbar{
+        display: flex;
+        gap: 2%;
+        -webkit-text-fill-color: rgb(241, 233, 233);
+        width: 100%;
+        height: 60px;
+        background-color:rgb(66, 92, 92);
+        font-size:large;
+        text-decoration: none;
+        margin-bottom: 10px;
+        
+    }
+    #body{
+        display: block;
+    }
+    #achievements{
+        width: 100%;
+        height: 90px;
+        background-color: rgb(60, 88, 88);
+        -webkit-text-fill-color: rgb(8, 8, 8);
+        margin-top: -8px;
+    }
+    #landing-page{
+        display: block;
+        gap: 4%;
+        width: 650px;
+        margin-left: 0px;
+        background-color: rgb(61, 80, 80);
+        border-radius: 50px;
+    }
+    #achievement{
+        width: 200px;
+        height: 250px;
+        object-fit: cover;
+        margin-left: 0px;
+        border-radius: 50px;
+        margin-top: 30px;
+    }
+    #achieved{
+        border-radius: 50px;
+        text-align: center;
+        -webkit-text-fill-color: aliceblue;
+        display: flex;
+        gap: 3%;
+    }
+    
+    #logo{
+        width: 50px;
+        height: 50px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    #myInput{
+        width: 200px;
+        font-size: large;
+        height: 40px;
+        margin-top: 30px;
+        border-radius: 20px;
+    }
+}

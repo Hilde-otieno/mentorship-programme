@@ -1,0 +1,240 @@
+#container{
+    height: 950px;
+    width: 1820px;
+    background-color:rgb(223, 228, 228);
+    border-radius: 50px;
+    
+}
+#navbar{
+    display: flex;
+    gap: 8%;
+    -webkit-text-fill-color: rgb(236, 232, 232);
+    width: 1820px;
+    height: 60px;
+    background-color:rgb(66, 92, 92);
+    font-size:xx-large;
+    text-decoration: none;
+}
+#home{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-decoration: none;
+}
+#Home-page{
+    font-size: larger;
+    gap: 5%;
+    display: flex;
+}
+#books{
+    width: 1000px;
+    height: 850px;
+}
+#social-media{
+    width: 100px;
+    height: 100px;
+    gap: 40%;
+    margin-left: 300px;
+}
+#Quotes{
+    font-size: x-large;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+@media screen and (min-width:280px) and (max-width: 480px){
+    #container{
+        height: 100%;
+        width: 100%;
+        background-color:rgb(223, 228, 228);
+        margin-left: -5px;
+        border-radius: 0;
+    }
+    #navbar{
+        display: flex;
+        gap: 5%;
+        -webkit-text-fill-color: black;
+        width: 100%;
+        height: 60px;
+        background-color:rgb(68, 100, 100);
+        font-size:x-small;
+        text-decoration: none;
+    }
+    #home{
+        margin-left: -5px;
+        font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    }
+    #Home-page{
+        font-size: large;
+        gap: 5%;
+        display: block;
+    }
+    #books{
+        width: 300px;
+        height: 300px;
+    }
+    #Quotes{
+        font-size: large;
+    }
+    #logo{
+        width: 50px;
+        height: 50px;
+    }  
+}
+@media screen and (min-width:481px) and (max-width: 680px){
+    #container{
+        height: 600px;
+        width: 100%;
+        background-color:rgb(223, 228, 228);
+        margin-left: -5px;
+    }
+    #navbar{
+        display: block;
+        gap: 12%;
+        -webkit-text-fill-color: black;
+        width: 100%;
+        height: 60px;
+        background-color: gray;
+        font-size:large;
+        text-decoration: none;
+    }
+    #home{
+        margin-left: -5px;
+        font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    }
+    #Home-page{
+        font-size: large;
+        gap: 5%;
+        display: block;
+    }
+    #books{
+        width: 150px;
+        height: 150px;
+    }
+    #Quotes{
+        font-size: x-small;
+    }
+    #logo{
+        width: 50px;
+        height: 50px;
+    }  
+}
+@media screen and (min-width:681px) and (max-width: 880px){
+    #container{
+        height: 100%;
+        width: 100%;
+        background-color:rgb(223, 228, 228);
+        margin-left: -5px;
+        border-radius: 0px;
+    }
+    #navbar{
+        display: block;
+        gap: 12%;
+        -webkit-text-fill-color: rgb(24, 12, 12);
+        width: 100%;
+        height: 60px;
+        background-color: rgb(45, 71, 71);
+        font-size:large;
+        text-decoration: none;
+    }
+    #home{
+        margin-left: -5px;
+        font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    }
+    #Home-page{
+        font-size: large;
+        gap: 5%;
+        display: block;
+    }
+    #books{
+        width: 750px;
+        height: 350px;
+    }
+    #Quotes{
+        font-size: small;
+    }
+    #logo{
+        width: 50px;
+        height: 50px;
+    }  
+}
+@media screen and (min-width:881px) and (max-width: 1030px){
+    #container{
+        height: 600px;
+        width: 100%;
+        background-color:rgb(223, 228, 228);
+        margin-left: -5px;
+    }
+    #navbar{
+        display: block;
+        gap: 12%;
+        -webkit-text-fill-color: black;
+        width: 100%;
+        height: 60px;
+        background-color: gray;
+        font-size:large;
+        text-decoration: none;
+    }
+    #home{
+        margin-left: -5px;
+        font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    }
+    #Home-page{
+        font-size: large;
+        gap: 5%;
+        display: block;
+    }
+    #books{
+        width: 150px;
+        height: 150px;
+    }
+    #Quotes{
+        font-size: x-small;
+    }
+    #logo{
+        width: 50px;
+        height: 50px;
+    }  
+}
+@media screen and (min-width:1031px) and (max-width: 1500px){
+    #container{
+        height: 600px;
+        width: 100%;
+        background-color:rgb(223, 228, 228);
+        margin-left: -5px;
+    }
+    #navbar{
+        display: block;
+        gap: 12%;
+        -webkit-text-fill-color: black;
+        width: 100%;
+        height: 60px;
+        background-color: gray;
+        font-size:large;
+        text-decoration: none;
+    }
+    #home{
+        margin-left: -5px;
+        font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    }
+    #Home-page{
+        font-size: large;
+        gap: 5%;
+        display: block;
+    }
+    #books{
+        width: 50px;
+        height: 150px;
+    }
+    #Quotes{
+        font-size: x-small;
+    }
+    #logo{
+        width: 50px;
+        height: 50px;
+    }  
+}

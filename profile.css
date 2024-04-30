@@ -1,0 +1,407 @@
+#container{
+    width: 1820px;
+    height: 900px;
+    background-color:rgb(217, 231, 231);
+    border-radius: 50px;
+}
+/* #navbar{
+    background-color: rgb(46, 71, 71);
+    -webkit-text-fill-color: aliceblue;
+    width: 1820px;
+    height: 70px;
+    text-decoration: none;
+    gap: 10%;
+    font-size: xx-large;
+} */
+#navbar{
+    display: flex;
+    gap: 3%;
+    -webkit-text-fill-color: rgb(236, 232, 232);
+    width: 1820px;
+    height: 70px;
+    background-color:rgb(66, 92, 92);
+    font-size:xx-large;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+/* #prof{
+    font-size: x-large;
+    margin-bottom: 10px;
+} */
+#mentor-details{
+     display: flex;
+}
+#personal{
+     display: block;
+
+}
+#photo{
+    width: 700px;
+    height: 700px;
+    margin-left: 100px;
+    border-radius: 50px;
+}
+#details{
+    font-size: x-large;
+    border-radius: 50px;
+    width: 800px;
+    text-align: center;
+    margin-left: 50px;
+    background-color: rgb(68, 95, 95);
+}
+#quotes{
+    font-size: xx-large;
+    width: 1200px;
+    height: 1100px;
+    background-color: rgb(106, 133, 133);
+    border-radius: 50px;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+@media screen and (min-width:280px) and (max-width: 480px){
+    #container{
+        width: 100%;
+        height: 100%;
+        background-color:rgb(217, 231, 231);
+        border-radius: 0px;
+    }
+    #navbar{
+        display: flex;
+        gap: 4%;
+        -webkit-text-fill-color: rgb(236, 232, 232);
+        width: 100%;
+        height: 60px;
+        background-color:rgb(66, 92, 92);
+        font-size:small;
+        text-decoration: none;
+    }
+    #mentor{
+        background-color: rgb(46, 71, 71);
+        -webkit-text-fill-color: aliceblue;
+        width: 100%;
+        height: 50px;
+        font-size: xx-large;
+    }
+    #mentor-details{
+         display: block;
+    }
+    #personal{
+         display: block;
+    
+    }
+    #photo{
+        width: 300px;
+        height: 300px;
+        margin-left: 0px;
+        border-radius: 50px;
+    }
+    #details{
+        font-size: x-small;
+        border-radius: 50px;
+        width: 300px;
+        height: 300px;
+        text-align: center;
+        margin-left: 0px;
+        background-color: rgb(68, 95, 95);
+    }
+    #quotes{
+        font-size: xx-large;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(106, 133, 133);
+        border-radius: 50px;
+    }
+    #logo{
+        width: 30px;
+        height: 30px;
+    }
+}
+@media screen and (min-width:481px) and (max-width: 680px){
+    #container{
+        width: 100%;
+        height: 100%;
+        background-color:rgb(217, 231, 231);
+        border-radius: 0px;
+    }
+    #navbar{
+        display: flex;
+        gap: 8%;
+        -webkit-text-fill-color: rgb(236, 232, 232);
+        width: 100%;
+        height: 60px;
+        background-color:rgb(66, 92, 92);
+        font-size:small;
+        text-decoration: none;
+    }
+    #mentor{
+        background-color: rgb(46, 71, 71);
+        -webkit-text-fill-color: aliceblue;
+        width: 100%;
+        height: 50px;
+        font-size: xx-large;
+    }
+    #mentor-details{
+         display: block;
+    }
+    #personal{
+         display: block;
+    
+    }
+    #photo{
+        width: 200px;
+        height: 200px;
+        margin-left: 100px;
+        border-radius: 50px;
+    }
+    #details{
+        font-size: large;
+        border-radius: 50px;
+        width: 300px;
+        text-align: center;
+        margin-left: 0px;
+        background-color: rgb(68, 95, 95);
+    }
+    #quotes{
+        font-size: xx-large;
+        width: 1200px;
+        height: 1100px;
+        background-color: rgb(106, 133, 133);
+        border-radius: 50px;
+    }
+    #logo{
+        width: 30px;
+        height: 30px;
+    }
+}
+@media screen and (min-width:481px) and (max-width: 680px){
+    #container{
+        width: 100%;
+        height: 100%;
+        background-color:rgb(217, 231, 231);
+        border-radius: 50px;
+    }
+    #navbar{
+        display: flex;
+        gap: 8%;
+        -webkit-text-fill-color: rgb(236, 232, 232);
+        width: 100%;
+        height: 60px;
+        background-color:rgb(66, 92, 92);
+        font-size:small;
+        text-decoration: none;
+    }
+    #mentor{
+        background-color: rgb(46, 71, 71);
+        -webkit-text-fill-color: aliceblue;
+        width: 100%;
+        height: 50px;
+        font-size: xx-large;
+    }
+    #mentor-details{
+         display: block;
+    }
+    #personal{
+         display: block;
+    
+    }
+    #photo{
+        width: 300px;
+        height: 300px;
+        margin-left: 100px;
+        border-radius: 50px;
+    }
+    #details{
+        font-size: large;
+        border-radius: 50px;
+        width: 450px;
+        text-align: center;
+        margin-left: 0px;
+        background-color: rgb(68, 95, 95);
+    }
+    #quotes{
+        font-size: xx-large;
+        width: 1200px;
+        height: 1100px;
+        background-color: rgb(106, 133, 133);
+        border-radius: 50px;
+    }
+    #logo{
+        width: 30px;
+        height: 30px;
+    }
+}
+@media screen and (min-width:681px) and (max-width: 880px){
+    #container{
+        width: 100%;
+        height: 100%;
+        background-color:rgb(217, 231, 231);
+        border-radius: 50px;
+    }
+    #navbar{
+        display: flex;
+        gap: 8%;
+        -webkit-text-fill-color: rgb(236, 232, 232);
+        width: 100%;
+        height: 60px;
+        background-color:rgb(66, 92, 92);
+        font-size:small;
+        text-decoration: none;
+    }
+    #mentor{
+        background-color: rgb(46, 71, 71);
+        -webkit-text-fill-color: aliceblue;
+        width: 100%;
+        height: 50px;
+        font-size: xx-large;
+    }
+    #mentor-details{
+         display: block;
+    }
+    #personal{
+         display: block;
+    
+    }
+    #photo{
+        width: 500px;
+        height: 500px;
+        margin-left: 0px;
+        border-radius: 50px;
+    }
+    #details{
+        font-size: large;
+        border-radius: 50px;
+        width: 500px;
+        text-align: center;
+        margin-left: 0px;
+        background-color: rgb(68, 95, 95);
+    }
+    #quotes{
+        font-size: xx-large;
+        width: 1200px;
+        height: 1100px;
+        background-color: rgb(106, 133, 133);
+        border-radius: 50px;
+    }
+    #logo{
+        width: 30px;
+        height: 30px;
+    }
+} 
+@media screen and (min-width:881px) and (max-width: 1024px){
+    #container{
+        width: 100%;
+        height: 100%;
+        background-color:rgb(217, 231, 231);
+        border-radius: 50px;
+    }
+    #navbar{
+        display: flex;
+        gap: 8%;
+        -webkit-text-fill-color: rgb(236, 232, 232);
+        width: 100%;
+        height: 60px;
+        background-color:rgb(66, 92, 92);
+        font-size:large;
+        text-decoration: none;
+    }
+    #mentor{
+        background-color: rgb(46, 71, 71);
+        -webkit-text-fill-color: aliceblue;
+        width: 100%;
+        height: 50px;
+        font-size: xx-large;
+    }
+    #mentor-details{
+         display: block;
+    }
+    #personal{
+         display: block;
+    
+    }
+    #photo{
+        width: 500px;
+        height: 500px;
+        margin-left: 100px;
+        border-radius: 50px;
+    }
+    #details{
+        font-size: large;
+        border-radius: 50px;
+        width: 300px;
+        text-align: center;
+        margin-left: 0px;
+        background-color: rgb(68, 95, 95);
+    }
+    #quotes{
+        font-size: xx-large;
+        width: 1200px;
+        height: 1100px;
+        background-color: rgb(106, 133, 133);
+        border-radius: 50px;
+    }
+    #logo{
+        width: 30px;
+        height: 30px;
+    }
+}      
+@media screen and (min-width:1025px) and (max-width: 1500px){
+    #container{
+        width: 100%;
+        height: 100%;
+        background-color:rgb(217, 231, 231);
+        border-radius: 50px;
+    }
+    #navbar{
+        display: flex;
+        gap: 8%;
+        -webkit-text-fill-color: rgb(236, 232, 232);
+        width: 1820px;
+        height: 60px;
+        background-color:rgb(66, 92, 92);
+        font-size:large;
+        text-decoration: none;
+    }
+    #mentor{
+        background-color: rgb(46, 71, 71);
+        -webkit-text-fill-color: aliceblue;
+        width: 100%;
+        height: 50px;
+        font-size: xx-large;
+    }
+    #mentor-details{
+         display: block;
+    }
+    #personal{
+         display: block;
+    
+    }
+    #photo{
+        width: 200px;
+        height: 200px;
+        margin-left: 100px;
+        border-radius: 50px;
+    }
+    #details{
+        font-size: large;
+        border-radius: 50px;
+        width: 300px;
+        text-align: center;
+        margin-left: 0px;
+        background-color: rgb(68, 95, 95);
+    }
+    #quotes{
+        font-size: xx-large;
+        width: 1200px;
+        height: 1100px;
+        background-color: rgb(106, 133, 133);
+        border-radius: 50px;
+    }
+    #logo{
+        width: 30px;
+        height: 30px;
+    }
+}         

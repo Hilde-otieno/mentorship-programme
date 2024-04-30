@@ -1,0 +1,253 @@
+#form{
+    width: 1810px;
+    -webkit-text-fill-color: rgb(17, 17, 19);
+    height: 900px;
+    text-align: center;
+    background-color: rgb(213, 231, 231);
+    font-size: x-large;
+    border-radius: 40px; 
+    margin-left: 10px;
+}
+#input{
+    width: 800px;
+    height: 60px;
+    margin-top: 100px;
+    border-radius: 50px;
+    font-size: x-large;
+    background-color:white;
+    -webkit-text-fill-color: rgb(12, 12, 12);
+}
+#log{
+    text-decoration: none;
+    -webkit-text-fill-color: aliceblue;
+}
+#log-in{
+    width: 250px;
+    height: 60px;
+    background-color: blue;
+    border-radius: 30px;
+    margin-top: 50px;
+    font-size: larger;
+}
+#mentee-log-in{
+    text-align: center;
+    width: 1810px;
+    height: 70px;
+    font-size: xx-large;
+    text-decoration: none;
+    background-color:rgb(51, 63, 63);
+    -webkit-text-fill-color: aliceblue;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+    margin-left: -1450px;
+    margin-top: 10px;
+}
+@media screen and (min-width:280px) and (max-width: 480px){
+    #form{
+        width: 100%;
+        -webkit-text-fill-color: rgb(17, 17, 19);
+        height: 100%;
+        background-color: rgb(223, 228, 228);
+        font-size: large;
+        margin-left: -5px;
+    }
+    #input{
+        width: 300px;
+        height: 50px;
+        margin-left: 0px;
+        margin-top: 100px;
+        border-radius: 50px;
+        font-size:xx-large;
+        text-align: center;
+        background-color: rgb(44, 61, 61);
+        -webkit-text-fill-color: aliceblue;
+    }
+    #log-in{
+        width: 250px;
+        height: 50px;
+        background-color: rgb(165, 165, 184);
+        border-radius: 30px;
+        margin-top: 50px;
+        font-size: xx-large;
+
+    }
+    #mentee-log-in{
+        text-decoration: underline;
+        width: 100%;
+        font-size: x-large;
+        height: 30px;
+        background-color: rgb(38, 119, 119);
+        -webkit-text-fill-color: aliceblue;
+    }
+    #logo{
+        width: 30px;
+        height: 30px;
+    }
+}
+@media screen and (min-width:481px) and (max-width: 680px){
+    #form{
+        width: 100%;
+        -webkit-text-fill-color: rgb(17, 17, 19);
+        height: 100%;
+        background-color: rgb(223, 228, 228);
+        font-size: large;
+        margin-left: -5px;
+    }
+    #input{
+        width: 200px;
+        height: 40px;
+        margin-left: 0px;
+        margin-top: 100px;
+        border-radius: 50px;
+        font-size:xx-large;
+        text-align: center;
+        background-color: rgb(44, 61, 61);
+        -webkit-text-fill-color: aliceblue;
+    }
+    #log-in{
+        width: 150px;
+        height: 30px;
+        background-color: rgb(165, 165, 184);
+        border-radius: 30px;
+        margin-top: 50px;
+        font-size: x-large;
+    }
+    #mentee-log-in{
+        text-decoration: underline;
+        width: 100%;
+        font-size: x-large;
+        height: 30px;
+        background-color: rgb(38, 119, 119);
+        -webkit-text-fill-color: aliceblue;
+    }
+    #logo{
+        width: 30px;
+        height: 30px;
+    }   
+    
+    }
+@media screen and (min-width:681px) and (max-width: 880px){
+    #form{
+        width: 100%;
+        -webkit-text-fill-color: rgb(17, 17, 19);
+        height: 100%;
+        background-color: rgb(223, 228, 228);
+        font-size: large;
+        margin-left: -5px;
+    }
+    #input{
+        width: 500px;
+        height: 80px;
+        margin-left: 0px;
+        margin-top: 100px;
+        border-radius: 50px;
+        font-size:xx-large;
+        text-align: center;
+        background-color: rgb(44, 61, 61);
+        -webkit-text-fill-color: aliceblue;
+    }
+    #log-in{
+        width: 250px;
+        height: 80px;
+        background-color: rgb(165, 165, 184);
+        border-radius: 60px;
+        margin-top: 50px;
+        font-size: x-large;
+    }
+    #mentee-log-in{
+        text-decoration: underline;
+        width: 100%;
+        font-size: small;
+        height: 30px;
+        background-color: rgb(38, 119, 119);
+        -webkit-text-fill-color: aliceblue;
+    }
+    #logo{
+        width: 30px;
+        height: 30px;
+    }
+    }
+@media screen and (min-width:881px) and (max-width: 1024px){
+    #form{
+        width: 100%;
+        -webkit-text-fill-color: rgb(17, 17, 19);
+        height: 100%;
+        background-color: rgb(223, 228, 228);
+        font-size: large;
+        margin-left: -5px;
+    }
+    #input{
+        width: 500px;
+        height: 40px;
+        margin-left: -100px;
+        margin-top: 100px;
+        border-radius: 50px;
+        font-size:xx-small;
+        text-align: center;
+        background-color: rgb(44, 61, 61);
+        -webkit-text-fill-color: aliceblue;
+    }
+    #log-in{
+        width: 350px;
+        height: 30px;
+        background-color: rgb(165, 165, 184);
+        border-radius: 30px;
+        margin-top: 50px;
+        font-size: x-small;
+    }
+    #mentee-log-in{
+        text-decoration: underline;
+        width: 100%;
+        font-size: small;
+        height: 30px;
+        background-color: rgb(38, 119, 119);
+        -webkit-text-fill-color: aliceblue;
+    }
+    #logo{
+        width: 30px;
+        height: 30px;
+    }   
+    }
+@media screen and (min-width:1025px) and (max-width: 1500px){
+    #form{
+        width: 100%;
+        -webkit-text-fill-color: rgb(17, 17, 19);
+        height: 100%;
+        background-color: rgb(223, 228, 228);
+        font-size: large;
+        margin-left: -5px;
+    }
+    #input{
+        width: 400px;
+        height: 40px;
+        margin-left: -100px;
+        margin-top: 100px;
+        border-radius: 50px;
+        font-size:xx-small;
+        text-align: center;
+        background-color: rgb(44, 61, 61);
+        -webkit-text-fill-color: aliceblue;
+    }
+    #log-in{
+        width: 350px;
+        height: 30px;
+        background-color: rgb(165, 165, 184);
+        border-radius: 30px;
+        margin-top: 50px;
+        font-size: x-small;
+    }
+    #mentee-log-in{
+        text-decoration: underline;
+        width: 100%;
+        font-size: small;
+        height: 30px;
+        background-color: rgb(38, 119, 119);
+        -webkit-text-fill-color: aliceblue;
+    }
+    #logo{
+        width: 30px;
+        height: 30px;
+    }
+}
